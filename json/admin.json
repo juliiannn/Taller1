@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Julian David",
+        "apellido": "Pedrozo Rangel",
+        "identificacion": "1044623839",
+        "edad": 17,
+        "telefono": "3028456767",
+        "correo": "julianpedrozzo10@gmail.com",
+        "contrasena":"julian123",
+        "rol":"Administrador"
+    }
+]

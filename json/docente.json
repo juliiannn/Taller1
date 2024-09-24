@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Raul Felipe",
+        "apellido": "Rodriguez gil",
+        "identificacion": "0123456789",
+        "edad": 45,
+        "telefono": "3010101010",
+        "correo": "rr@gmail.com",
+        "contrasena":"0000",
+        "rol":"Docente",
+        "institucion":"Colegio 1",
+        "materia":"Matematicas"
+    }
+]

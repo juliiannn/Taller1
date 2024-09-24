@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Ian Andres",
+        "apellido": "Campo Bosque",
+        "identificacion": "9876543210",
+        "edad": 15,
+        "telefono": "3003003030",
+        "correo": "ianthebest@gmail.com",
+        "contrasena":"123",
+        "rol":"Estudiante",
+        "institucion":"Colegio 1",
+        "grado": 11
+    }
+]

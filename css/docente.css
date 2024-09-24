@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;padding: 0;
+    background-color: #f4f4f4;  
+}  
+  
+header {
+    background-color:  rgb(8, 180, 8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;  
+} 
+.btn-salir {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-salir:hover {
+    background-color: #ff1a1a;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+} 
+h1{
+    font-size: 45px;  
+}
+.logo img {
+    max-width: 250px;      
+    margin-right: 300px; 
+}  
+  
+.menu {
+    text-align: center;
+    list-style: none;
+    padding: 15px;  
+    background-color: rgb(8, 180, 8);
+}  
+  
+.menu li {
+    display: inline;
+    margin: 0 30px;  
+}  
+.menu a {
+    text-decoration: none;
+  
+    padding: 10px 15px;
+    border-radius: 9px;
+    transition: background-color 0.3s;  
+}  
+  
+.menu a:hover {
+    background-color: #45a049;  
+}  
+  
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+h2 {
+    color: #333;  
+}  
+  
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(8, 180, 8);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}  
+footer:hover{
+    text-decoration: underline;
+}

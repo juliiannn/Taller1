@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+   
+    margin: 0; 
+    
+
+}
+header{
+    text-align: center; 
+    border: 2px rgb(8, 180, 8);
+    background-color: rgb(8, 180, 8);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.login-button {
+    position: absolute; /* Posiciona el contenedor */
+    top: 20px; /* Espacio desde la parte superior */
+    right: 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 5px 12px; /* Espaciado */
+    text-align: center; /* Centrado */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* En línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor como mano */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+.icon {
+    width: 50px; /* Ancho del icono */
+    height: 50px; /* Alto del icono */
+    margin-right: 10px; /* Espacio a la derecha del icono */
+}
+.login-button:hover {
+    background-color: #45a049; /* Color al pasar el ratón */
+}
+.imagen{
+    text-align: center; /*centrado */
+    
+}
+
+.parrafo{
+    font-size: 18px; /* tamaño de letra*/
+}
+.mitabla{
+    margin: 0 auto; /*centrar la tabla*/
+}
+.caja{
+    display: flex; /*aplica flexbox para ubicar*/
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+   
+}
+
+.contenedor{
+    display: flex; /*aplica flexbox para ubicar*/
+    
+    flex-wrap: wrap /*en una misma línea o pueden fluir en varias líneas*/;
+   justify-content: center; /*centra un contenido*/
+}
+
+.pie{ 
+    text-align: center; /* centrado */
+    border: 2px rgb(8, 180, 8); /*bordes y propiedades */
+    background-color: rgb(8, 180, 8);
+    color: white;
+}
+
+.parrafo{ /*parrafo que se encuentra en la izquierda*/
+    padding-right: 4%;
+    
+}
+
+.frm{    /*formulario */
+    border: 5px rgb(0, 0, 0) solid;
+    padding-left: 1%;
+    padding-right: 5%;
+    border-radius: 25px;
+    padding-bottom: 4%;
+    background-color: rgb(8, 180, 8);
+    
+}

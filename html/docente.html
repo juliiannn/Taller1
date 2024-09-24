@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="icon" href="../img/administrador.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/docente.css">
+</head>
+<body>
+      <header>
+        <div id="mensaje-bienvenida">
+
+        </div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Docente </h1>
+        </div>
+        <input type="button" class="btn-salir" value="Salir" onclick="cerrarSesion()">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="#registrar-instituciones">Grados</a>
+            </li>
+            <li>
+                <a href="#registrar-administradores">Notas de los estudiantes por grado</a>
+            </li>
+            <li>
+                <a href="#ver-instituciones">Revisar y subir tareas</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="registrar-instituciones">
+            <h2>Registrar Instituciones Educativas</h2>
+            <p>Aquí podrás registrar nuevas instituciones educativas.</p>
+        </section>
+        <section id="registrar-administradores">
+            <h2>Registrar Administradores</h2>
+            <p>Registra los administradores que gestionarán las instituciones.</p>
+        </section>
+        <section id="ver-instituciones">
+            <h2>Ver Instituciones Registradas</h2>
+            <p>Consulta la lista de instituciones que ya están registradas.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>  
+    <script src="../js/server.js"></script>
+</body>
+</html>

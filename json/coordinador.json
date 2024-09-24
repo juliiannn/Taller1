@@ -1,0 +1,13 @@
+[
+    {
+        "nombre": "Pepito ANtonio",
+        "apellido": "Perez Cuesta",
+        "identificacion": "1234567890",
+        "edad": 50,
+        "telefono": "3000000000",
+        "correo": "pepitoperez@gmail.com",
+        "contrasena":"12345",
+        "rol":"Coordinador",
+        "institucion":"Colegio 1"
+    }
+]

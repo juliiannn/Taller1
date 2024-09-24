@@ -1,0 +1,12 @@
+[
+    {
+        "nombre":"Colegio 1",
+        "nit":123456789,
+        "coordinador":"coor1",
+        "pais":"Colombia",
+        "ciudad":"Barranquilla",
+        "direccion":"calle1#4-12",
+        "correo":"prueba1@gmail.com",
+        "telefono":3012567890
+    }
+]
