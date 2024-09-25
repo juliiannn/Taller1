@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="stylesheet" href="../css/regins.css">
+</head>
+<body>
+    <header>
+        <div id="mensaje-bienvenida"></div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Administrador</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><input type="button" class="submenu" value="Regresar" onclick="regresar1()"></li>
+        </ul>
+    </nav>
+    <div class="login-container">
+        <h1>Registrar Coordinador</h1>
+        <form>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombres" required>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            <input type="text" id="identificacion" name="identificacion" placeholder="Identificacion" required>
+            <input type="number" id="edad" name="edad" placeholder="Edad" min="1" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Telefono" required>
+            <input type="email" id="correo" name="correo" placeholder="Correo" required>
+            <input type="text" id="institucion" name="institucion" placeholder="Institucion" required>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+            <br>
+            <input type="button" class="button" value="Enviar" onclick="formcoo()">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>
+    <script src="../js/server.js"></script>
+</body>
+</html>

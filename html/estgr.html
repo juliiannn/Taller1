@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="stylesheet" href="../css/estgr.css">
+</head>
+<body>
+    <header>
+        <div id="mensaje-bienvenida"></div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Docente</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><input type="button" class="submenu" value="Regresar" onclick="regresar3()"></li>
+        </ul>
+    </nav>
+    <div class="select-container">
+        <h1>Filtrar Estudiantes por Grado</h1>
+        <select id="grado">
+            <option value="">-- Seleccionar Grado --</option>
+            <option value="6">6°</option>
+            <option value="7">7°</option>
+            <option value="8">8°</option>
+            <option value="9">9°</option>
+            <option value="10">10°</option>
+            <option value="11">11°</option>
+        </select>
+    <input type="button" class="button" value="Filtrar Estudiantes" onclick="filtrarest()">
+    </div>
+    <div id="result"></div>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>
+    <script src="../js/server.js"></script>
+</body>
+</html>

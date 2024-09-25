@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="icon" href="../img/administrador.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/administrador.css">
+</head>
+<body>
+    <header>
+        <div id="mensaje-bienvenida"></div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Administrador</h1>
+        </div>
+        <input type="button" class="btn-salir" value="Salir" onclick="cerrarSesion()">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><input type="button" class="submenu" value="Registrar Instituciones" onclick="registrarinst()"></li>
+            <li><input type="button" class="submenu" value="Registrar Coordinadores" onclick="registrarcoord()"></li>
+            <li><input type="button" class="submenu" value="Ver instituciones registradas" onclick="instituciones()"></li>
+            <li><input type="button" class="submenu" value="Ver coordinadores registrados" onclick="coordinadores()"></li>
+        </ul>
+    </nav>
+    <div class="parrafo">
+            <h2>¡Bienvenido al Panel de Administración de Instituciones Educativas!</h2>
+            <p>
+                Aquí podrás gestionar y supervisar todos los aspectos relacionados con las instituciones, estudiantes, y docentes que forman parte de nuestra plataforma. Desde este panel, tienes el control total para:
+            </p>
+            <ul>
+                <li>Registrar y gestionar instituciones educativas: Administra la información de cada institución, verifica nuevas solicitudes de registro y mantén los datos actualizados.</li>
+             
+                <li>Supervisar usuarios: Controla los roles de usuarios, ajusta permisos y monitorea el rendimiento de estudiantes y docentes en tiempo real.</li>
+        
+                <li>Gestionar cursos y materiales: Crea, edita y organiza los cursos, asigna docentes y proporciona a las instituciones los recursos educativos necesarios.</li>
+    
+                <li>Generar reportes detallados: Obtén informes completos sobre el uso de la plataforma, el rendimiento académico y la actividad de cada institución para asegurar una gestión eficiente.</li>
+            </ul>
+            <p>
+                Este es tu espacio central para mantener todo en orden, optimizar la experiencia educativa y garantizar que las instituciones cuenten con las herramientas necesarias para su éxito.
+            </p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>  
+    <script src="../js/server.js"></script>
+</body>
+
+</html>

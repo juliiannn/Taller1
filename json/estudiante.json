@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Ian Andres",
+        "apellido": "Campo Bosque",
+        "identificacion": "9876543210",
+        "edad": 15,
+        "telefono": "3003003030",
+        "correo": "ianthebest@gmail.com",
+        "institucion": "Colegio 1",
+        "grado":11,
+        "contrasena": "123",
+        "rol": "Estudiante"
+    },
+    {
+        "nombre": "Sofia Isabel",
+        "apellido": "Martinez Ruiz",
+        "identificacion": "1234567899",
+        "edad": 16,
+        "telefono": "3013013013",
+        "correo": "sofi.martinez@gmail.com",
+        "institucion": "Colegio 1",
+        "grado":11,
+        "contrasena": "456",
+        "rol": "Estudiante"
+    },
+    {
+        "nombre": "Lucas Javier",
+        "apellido": "Gomez Torres",
+        "identificacion": "6543210987",
+        "edad": 14,
+        "telefono": "3023023023",
+        "correo": "lucas.javier@gmail.com",
+        "institucion": "Colegio 1",
+        "grado":10,
+        "contrasena": "789",
+        "rol": "Estudiante"
+    }
+]

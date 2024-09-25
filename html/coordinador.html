@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="icon" href="../img/administrador.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/coordinador.css">
+</head>
+<body>
+      <header>
+        <div id="mensaje-bienvenida">
+        </div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Institucion Educativa</h1>
+        </div>
+        <input type="button" class="btn-salir" value="Salir" onclick="cerrarSesion()">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><input type="button" class="submenu" value="Registrar Profesores" onclick="regpro()"></li>
+            <li><input type="button" class="submenu" value="Registrar Estudiantes" onclick="regest()"></li>
+            <li><input type="button" class="submenu" value="Registrar Materias" onclick="regmat()"></li>
+            <li><input type="button" class="submenu" value="Ver Profesores" onclick="verpro()"></li>
+            <li><input type="button" class="submenu" value="Ver Estudiantes" onclick="verest()"></li>
+            <li><input type="button" class="submenu" value="Ver/Editar notas" onclick="notas()"></li>
+    </nav>
+    <div class="parrafo">
+        <h2>¡Bienvenido al Panel de Administración de tu Institución Educativa!</h2>
+        <p>
+            Eres el único encargado de gestionar todos los aspectos relacionados con tu colegio. En este espacio exclusivo, podrás
+        </p>
+        <ul>
+            <li>Administrar la Información del Colegio: Actualiza y verifica los datos de tu institución para mantener a todos informados.</li>
+            <li>Gestionar a los Estudiantes y Docentes: Agrega o modifica información de estudiantes y profesores, asegurando que todos tengan acceso a la plataforma educativa.</li>
+            <li>Supervisar el Rendimiento Académico: Accede a reportes detallados sobre las notas y el progreso de los estudiantes para facilitar una educación de calidad.</li>
+            <li>Organizar Recursos Educativos: Crea, edita y asigna cursos y materiales que tus docentes necesitarán para proporcionar una enseñanza efectiva.</li>
+            <li>Comunicarte con la Comunidad Escolar: Mantén a los padres y estudiantes informados sobre novedades y eventos importantes de tu colegio.</li>
+        </ul>
+        <p>
+            Este panel está diseñado para brindarte las herramientas necesarias para llevar a tu institución al siguiente nivel. ¡Gracias por ser parte de nuestra plataforma educativa y por tu compromiso con la excelencia educativa!
+        </p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>  
+    <script src="../js/server.js"></script>
+</body>
+</html>

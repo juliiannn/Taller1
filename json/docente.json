@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Raul Felipe",
+        "apellido": "Rodriguez Gil",
+        "identificacion": "0123456789",
+        "edad": 45,
+        "telefono": "3010101010",
+        "correo": "rr@gmail.com",
+        "contrasena": "0000",
+        "rol": "Docente",
+        "institucion": "Colegio 1",
+        "materia": "Matematicas"
+    },
+    {
+        "nombre": "Ana Maria",
+        "apellido": "Lopez Perez",
+        "identificacion": "9876543210",
+        "edad": 38,
+        "telefono": "3121212121",
+        "correo": "amlopez@gmail.com",
+        "contrasena": "1234",
+        "rol": "Docente",
+        "institucion": "Colegio 1",
+        "materia": "Sociales"
+    },
+    {
+        "nombre": "Carlos Alberto",
+        "apellido": "Gonzalez Ramos",
+        "identificacion": "1234567890",
+        "edad": 29,
+        "telefono": "3202020202",
+        "correo": "carlosg@gmail.com",
+        "contrasena": "abcd",
+        "rol": "Docente",
+        "institucion": "Colegio 1",
+        "materia": "Ingles"
+    }
+]

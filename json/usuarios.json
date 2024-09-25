@@ -1,0 +1,96 @@
+[
+    {
+        "nombre": "Julian David",
+        "apellido": "Pedrozo Rangel",
+        "identificacion": "1044623839",
+        "edad": 17,
+        "telefono": "3028456767",
+        "correo": "julianpedrozzo10@gmail.com",
+        "contrasena":"julian123",
+        "rol":"Administrador"
+    },
+    {
+        "nombre": "Pepito Antonio",
+        "apellido": "Perez Cuesta",
+        "identificacion": "1234567890",
+        "edad": 50,
+        "telefono": "3000000000",
+        "correo": "pepitoperez@gmail.com",
+        "contrasena":"12345",
+        "institucion":"Colegio 1",
+        "rol":"Coordinador"
+    },
+    {
+        "nombre": "Raul Felipe",
+        "apellido": "Rodriguez gil",
+        "identificacion": "0123456789",
+        "edad": 45,
+        "telefono": "3010101010",
+        "correo": "rr@gmail.com",
+        "contrasena":"0000",
+        "institucion":"Colegio 1",
+        "materia":"Matematicas",
+        "rol":"Docente"
+    },
+    {
+        "nombre": "Ian Andres",
+        "apellido": "Campo Bosque",
+        "identificacion": "9876543210",
+        "edad": 15,
+        "telefono": "3003003030",
+        "correo": "ianthebest@gmail.com",
+        "contrasena":"123",
+        "institucion":"Colegio 1",
+        "grado": 11,
+        "rol":"Estudiante"
+    },
+    {
+        "nombre": "Ana Maria",
+        "apellido": "Lopez Perez",
+        "identificacion": "9876543210",
+        "edad": 38,
+        "telefono": "3121212121",
+        "correo": "amlopez@gmail.com",
+        "contrasena": "1234",
+        "rol": "Docente",
+        "institucion": "Colegio 1",
+        "materia": "Sociales"
+    },
+    {
+        "nombre": "Carlos Alberto",
+        "apellido": "Gonzalez Ramos",
+        "identificacion": "1234567890",
+        "edad": 29,
+        "telefono": "3202020202",
+        "correo": "carlosg@gmail.com",
+        "contrasena": "abcd",
+        "rol": "Docente",
+        "institucion": "Colegio 1",
+        "materia": "Ingles"
+    },
+    {
+        "nombre": "Sofia Isabel",
+        "apellido": "Martinez Ruiz",
+        "identificacion": "1234567899",
+        "edad": 16,
+        "telefono": "3013013013",
+        "correo": "sofi.martinez@gmail.com",
+        "institucion": "Colegio 1",
+        "grado": 11,
+        "contrasena": "456",
+        "rol": "Estudiante"
+    },
+    {
+        "nombre": "Lucas Javier",
+        "apellido": "Gomez Torres",
+        "identificacion": "6543210987",
+        "edad": 14,
+        "telefono": "3023023023",
+        "correo": "lucas.javier@gmail.com",
+        "institucion": "Colegio 1",
+        "grado": 10,
+        "contrasena": "789",
+        "rol": "Estudiante"
+    }
+
+]

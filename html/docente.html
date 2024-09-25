@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="icon" href="../img/administrador.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/docente.css">
+</head>
+<body>
+      <header>
+        <div id="mensaje-bienvenida">
+
+        </div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Docente </h1>
+        </div>
+        <input type="button" class="btn-salir" value="Salir" onclick="cerrarSesion()">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><input type="button" class="submenu" value="Ver Estudiantes" onclick="estgr()"></li>
+            <li><input type="button" class="submenu" value="Editar Notas" onclick="notas()"></li>
+            <li><input type="button" class="submenu" value="Subir Actividades" onclick="act()"></li>
+        </ul>
+    </nav>
+    <div class="parrafo">
+        <h2>Bienvenido al Panel de Docentes!</h2>
+        <p>
+            Como docente, tienes un rol fundamental en la formación y el desarrollo de tus estudiantes. En este espacio exclusivo, podrás:
+        </p>
+        <ul>
+            <li>Gestionar tus Clases: Accede a la información de las materias que impartes, organiza tus lecciones y asegúrate de que tus estudiantes tengan todo lo necesario para aprender.</li>
+            <li>Registrar Notas y Evaluaciones: Evalúa el rendimiento de tus estudiantes de manera efectiva. Registra notas, comentarios y retroalimentación para cada alumno, asegurando un seguimiento adecuado de su progreso.</li>
+            <li>Subir y Revisar Tareas: Facilita el aprendizaje al permitir que tus estudiantes entreguen tareas en línea. Revisa, califica y proporciona retroalimentación para ayudarles a mejorar.</li>
+        </ul>
+        <p>
+            Este panel está diseñado para brindarte las herramientas necesarias para llevar a tu institución al siguiente nivel. ¡Gracias por ser parte de nuestra plataforma educativa y por tu compromiso con la excelencia educativa!
+        </p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>  
+    <script src="../js/server.js"></script>
+</body>
+</html>

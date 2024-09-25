@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <input type="button" class="regresar" value=" < Regresar" onclick="regresar()">
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm">
+            <input type="text" id="identificacion" placeholder="# de Identificacion" required>
+            <br>
+            <input type="password" id="contrasena" placeholder="Contraseña" required>
+            <br>
+            <br>
+            <input type="button" class="button" value="Ingresar" onclick="ingresar()">
+            <br>
+            <br>
+        </form>
+        <a href="" class="restaurar">Olvidé mi contraseña</a>
+    </div>
+    <script src="../js/server.js"></script>
+</body>
+</html>

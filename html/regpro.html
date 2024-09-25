@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Instituciones Educativas</title>
+    <link rel="stylesheet" href="../css/regpro.css">
+</head>
+<body>
+    <header>
+        <div id="mensaje-bienvenida"></div>
+        <div class="logo">
+            <img src="../img/logo 1.jfif" alt="Logo de Instituciones Educativas">
+            <h1>Institucion Educativa</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><input type="button" class="submenu" value="Regresar" onclick="regresar2()"></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <h1>Registrar Docente</h1>
+        <form>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombres" required>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            <input type="text" id="identificacion" name="identificacion" placeholder="Identificacion" required>
+            <input type="number" id="edad" name="edad" placeholder="Edad" min="1" required>
+            <input type="number" id="telefono" name="telefono" placeholder="Telefono" required>
+            <input type="email" id="correo" name="correo" placeholder="Correo" required>
+            <select id="materia" name="materia" required>
+                <option value="" disabled selected>Materia</option>
+                <option value="matematicas">Matemáticas</option>
+                <option value="sociales">Sociales</option>
+                <option value="lenguaje">Lenguaje</option>
+                <option value="ingles">Inglés</option>
+                <option value="naturales">Naturales</option>
+            </select>
+            <input type="file" id="hdv" name="hdv">
+            <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+            <span class="note">Ingresa hoja de vida</span>
+            <br>
+            <input type="button" class="button" value="Enviar" onclick="formpro()">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gestión de Instituciones Educativas</p>
+    </footer>
+    <script src="../js/server.js"></script>
+</body>
+</html>
